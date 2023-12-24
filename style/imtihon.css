@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1120px;
+    margin: 0px auto;
+    padding: 20px;
+}
+/* header-part */
+a {
+    text-decoration: none;
+    font-style: none;
+}
+.nav-bar {
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-ul-li {
+    display: flex;
+    list-style: none;
+}
+.header-ul {
+    display: flex;
+    gap: 40px;
+    width: 500px;
+    color: black;
+    font-weight: 700;
+}
+.header-ul-li-home {
+    color: black;
+    list-style: none;
+    font-weight: 900;
+}
+/* header-part-finished */
+/* main-part */
+.wrapper {
+    display: flex;
+}
+.left {
+    margin-top: 100px;
+    align-items: center;
+    padding: 45px;
+    justify-content: space-between;
+}
+.left-title {
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: 900;
+}
+.left-text {
+    font-size: 18px;
+    line-height: 20px;
+    color: gray;
+    margin-top: 10px;
+}
+.left-btn {
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    margin-top: 10px;
+    background-color: #458ff6;
+    border-radius: 55px;
+    width: 200px;
+    height: 55px;
+    border: none;
+    margin-top: 45px;
+}
+/* main-finished */
+/* section-part */
+.service-title {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 60px;
+    font-weight: 800;
+}
+hr {
+    width: 56px;
+    height: 3px;
+    margin: 39px auto;
+    color: black;
+}
+.about-service {
+    color: gray;
+    font-weight: 400;
+    font-size: 21px;
+    height: 98px;
+    margin-top: 30px;
+    line-height: 32px;
+}
+/* section-part-finished */
+/* section-cards */
+.section-cards {
+    margin-top: 110px;
+}
+.card {
+    width: 323px;
+    height: 328px;
+    border:  1px solid rgb(204, 195, 195);;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.s-c-img {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.c-title {
+    margin: 40px 20px;
+    font-size: 16;
+}
+.c-text {
+    margin: 40px 20px;
+    font-size: 17px;
+    color: gray;
+    line-height: 20px;
+}
+.card-button {
+    margin-top: 80px;
+    border: 1px solid #458ff6;
+    color: #458ff6;
+    width: 250px;
+    height: 56px;
+    border-radius: 40px;
+}
+/* daily-part */
+.daily-part {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    gap: 60px;
+    justify-content: space-between;
+}
+  .daily-title {
+    font-size: 36px;
+    line-height: 56px;
+    font-weight: 700;
+  }
+  .hr {
+    margin: 20px 0px;
+    color: black;
+  }
+  .daily-text {
+    font-size: 18px;
+    line-height: 20px;
+    color: gray;
+    margin-top: 10px;
+  }
+  .daily-button {
+    border: 1px solid #458ff6;
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    color: #458ff6;
+    margin-top: 40px;
+  }
+  /* daily-part finished */
+  /* mobile-app part */
+  .mobile-app {
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    gap: 60px;
+    justify-content: space-between;
+  }
+  .mobile-app-title {
+    font-size: 36px;
+    line-height: 56px;
+    font-weight: 700;
+  }
+.mobile-app-text {
+    font-size: 18px;
+    line-height: 20px;
+    color: gray;
+    margin-top: 10px;
+}
+.mobile-app-btn {
+    border: 1px solid #458ff6;
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    color: #458ff6;
+    margin-top: 40px;
+    gap: 20px;
+}
+/* mobile-app finished */
+/* list-part */
+.list-part {
+    background:#458ff6;
+    width: 1000px;
+    padding-top: 59px;
+    height: 420px;
+    margin-top: 230px;
+    border-radius: 30px;
+}
+.list-top {
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+}
+.list-img {
+    margin: 10px 10px;
+}
+.list-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 95px;
+    padding-right: 55px;
+}
+.list-text {
+    color: white;
+    width: 420px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+.list-title-h4 {
+    color: white;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 48px;
+    margin-bottom: 30px;
+    margin-left: 168px;
+    position: absolute;
+}
+/* list-part finished */
+/* teg-style-part */
+.teg-style{
+    margin: 50px;
+    text-align: center;
+}
+.teg-title{
+    margin-top: 250px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 900;
+}
+/* teg-style part finished */
+.latest-style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .latest-style-card {
+    width: 350px;
+    height: 512px;
+    background: #fdf6f6;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+  }
+  .latest-style-title {
+    font-family: "Muli";
+    font-size: 21px;
+    line-height: 32px;
+    width: 251px;
+  }
+  .latest-style-info {
+    padding: 21px 33px;
+  }
+  .latest-style-text {
+    font-family: "Muli";
+    font-size: 16px;
+    line-height: 28px;
+    color: #7d7987;
+    text-align: justify;
+    margin-top: 25px;
+  }
+  .latest-system-btn {
+    width: 266px;
+    height: 28px;
+    margin-top: 30px;
+    color: #458ff6;
+  }
+  .latest-system-right-img {
+    margin: 0px 10px;
+  }
+  .latest-button {
+    width: 200px;
+    height: 56px;
+    border: 1px solid #458ff6;
+    border-radius: 55px;
+    margin: 50px auto;
+    background-color: transparent;
+    color: #458ff6;
+    transform: translate(220%, 50%);
+  }
+  /* footer-part*/
+  .footer-logo{
+    color: white;
+  }
+  .footer-style{
+    width: 100%;
+    height: 432px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    margin-top: 200px;
+    padding: 118px 100px;
+    display: flex;
+  }
+  .footer-left{
+    width: 491px;
+    height: 201px;
+  }
+  .footer-title{
+    color: white;
+    margin-top: 45px;
+  }
+  .footer-text{
+    font-size: 18px;
+  line-height: 28px;
+  color: white;
+  margin-top: 72px;
+  width: 391px;
+  }
+  .footer-right{
+    display: flex;
+    gap: 60px;
+    margin: 20px 170px;
+  }
+  .footer-nav{
+    margin-left: 20px;
+    font-size: 20px;
+  line-height: 60px;
+    color: white;
+  }
+  .footer-ul{
+    list-style: none;
+    color: white;
+  }
+  .footer-ul-li{
+    margin:25px;
+    width: 100%;
+    font-size: 18px;
+  }
+  /* footer-part finished */
+  /* This is my first DIY mockup i spent a lot of time on it but i made it all right^_^ */
